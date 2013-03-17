@@ -1,0 +1,52 @@
+@CHARSET "ISO-8859-1";
+
+#pageDiv {
+	box-shadow: 0 0 5px #999;
+	width: 760px;
+	margin: 15px auto;
+	padding: 5px;
+}
+
+/********************** Header elements **********************/
+#headerDiv {
+	display: inline-block;
+	border: 2px solid black;
+	width: 98%;
+	padding: 5px;
+	
+}
+
+#leftHead {
+	float: left;
+	width: 58%;
+	padding: 5px;
+}
+
+#rightHead {
+	float: right;
+	width:38%;
+	padding: 5px;
+	border-left: 2px solid black;	
+}
+
+#logo {
+	max-width:100%;
+}
+
+/********************** End Header elements **********************/
+
+#welcomeDiv {
+	text-align: center;
+	border: 1px solid #FFFFFF;
+}
+
+#buttonsDiv {
+	text-align: center;
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+input {
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-size: 3em;
+}
