@@ -34,7 +34,7 @@
 			</div>
 		</div>
 
-		<form action="/sign" method="post">
+		<form action="/Tutoring" method="post">
 			<div id="buttonsDiv">
 				<div id="tutoredButton">
 					<input type="submit" value="Click Here to Apply For Tutoring"

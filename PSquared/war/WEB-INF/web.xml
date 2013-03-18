@@ -8,7 +8,7 @@
 		<url-pattern>/psquared</url-pattern>
 	</servlet-mapping>
 	<welcome-file-list>
-		<welcome-file>jsppages/guestbook.jsp</welcome-file>
+		<welcome-file>jsppages/psquared.jsp</welcome-file>
 	</welcome-file-list>
 	<servlet>
 		<servlet-name>sign</servlet-name>

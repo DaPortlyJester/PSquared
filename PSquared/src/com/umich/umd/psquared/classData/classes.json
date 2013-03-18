@@ -1,0 +1,35 @@
+{"classes": [
+        {
+            "name":"ECE210 Circuits" 
+        },
+        {
+            "name":"ECE270 Computer Methods in ECE"
+        },
+        {
+            "name":"ECE273 Digital Systems"
+        },
+        {
+            "name":"ECE276 Discrete Math in ECE" 
+        },
+        {
+            "name":"ECE311 Electronic Circuits"
+        },
+        {
+            "name":"ECE3171 Analog & Discrete Sig & Sys"
+        },
+        {
+            "name":"ECE319 Electromagnetic Compatibility" 
+        },
+        {
+            "name":"ECE365 Control Syst Analysis & Design"
+        },
+        {
+           "name":"ECE370 Adv Soft Techn in Comp Engr"
+        },
+        {
+			"name":"ECE372 Intro to Microprocessors"        
+		},
+		 {
+			"name":"ECE375 Intro to Comp Architecture"        
+		},
+] }

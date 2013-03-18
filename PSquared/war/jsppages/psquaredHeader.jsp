@@ -3,7 +3,7 @@
 <%@ page import="com.google.appengine.api.users.User"%>
 <%@ page import="com.google.appengine.api.users.UserService"%>
 <%@ page import="com.google.appengine.api.users.UserServiceFactory"%>
-<%@ page import="com.umich.umd.psquared.ManageUser" %>
+<%@ page import="com.umich.umd.psquared.ManageUser"%>
 
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
 
@@ -17,41 +17,38 @@
 	<div id="headerDiv">
 		<div id="leftHead">
 			<div id="UMDLogo">
-				<img
+				<a href="http://www.umd.umich.edu"> <img
 					src="http://www.umd.umich.edu/fileadmin/umdts/templates/shared/parts/assets/umd-official-wordmark.jpg"
 					id="logo" alt="University of Michigan - Dearborn Logo">
+				</a>
 			</div>
 		</div>
 		<div id="rightHead">
 
 			<%
-					ManageUser mngUser = new ManageUser();
-					User user = mngUser.getCurrUser();
-					
-				%>
+				ManageUser mngUser = new ManageUser();
+				User user = mngUser.getCurrUser();
+			%>
 			<div id="userAccount">
 				<%
-						if (user != null) {
-					%>
+					if (user != null) {
+				%>
 				<p>
-					User Account: ${ fn:escapeXml(user.getNickname()) }
-					<br /> <a
-						href="<%=mngUser.getLoginURL(request)%>">Click
-						here</a> to sign in to another account <br /> <a
-						href="<%=mngUser.getLogoutURL(request)%>">Sign
-						Out</a>
+					User Account: ${fn:escapeXml(user.nickname)} <br /> <a
+						href="<%=mngUser.getLoginURL(request)%>">Click here</a> to sign in
+					to another account <br /> <a
+						href="<%=mngUser.getLogoutURL(request)%>">Sign Out</a>
 				</p>
 				<%
-						} else {
-					%>
+					} else {
+				%>
 				<p>
-					User Account: <a
-						href="<%=mngUser.getLoginURL(request)%>">Please
+					User Account: <a href="<%=mngUser.getLoginURL(request)%>">Please
 						Click here</a> to sign in
 				</p>
 				<%
-						}
-					%>
+					}
+				%>
 			</div>
 		</div>
 	</div>

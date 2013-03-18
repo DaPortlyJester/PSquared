@@ -1,10 +1,16 @@
 @CHARSET "ISO-8859-1";
 
+body { 
+	padding-bottom: 0; 
+	background: #3f4b6d url(http://www.umd.umich.edu/fileadmin/umdts/templates/gateway/assets/bg2.gif) repeat center top; }
+
 #pageDiv {
 	box-shadow: 0 0 5px #999;
 	width: 760px;
-	margin: 15px auto;
+	margin: 2px auto;
 	padding: 5px;
+	background-color: #FFF;
+	box-shadow: 0 0 16px 4px #222;
 }
 
 /********************** Header elements **********************/
