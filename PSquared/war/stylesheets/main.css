@@ -6,6 +6,7 @@ body {
 
 #pageDiv {
 	box-shadow: 0 0 5px #999;
+	height: 100%;
 	width: 760px;
 	margin: 2px auto;
 	padding: 5px;

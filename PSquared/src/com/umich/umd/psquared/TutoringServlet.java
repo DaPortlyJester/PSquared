@@ -34,7 +34,7 @@ public class TutoringServlet extends HttpServlet {
 		
 		req.setAttribute(COURSES_REQUEST, courseList);
 		
-		RequestDispatcher rd = getServletContext().getRequestDispatcher("/tutoringApp.jsp");
+		RequestDispatcher rd = getServletContext().getRequestDispatcher("jsppages/tutoringApp.jsp");
 		rd.forward(req, resp);
 		
 	}
